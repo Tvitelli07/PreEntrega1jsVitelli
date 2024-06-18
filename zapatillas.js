@@ -2,6 +2,9 @@ function saludo (){
     alert('¡Hola ' + nombre + ', Bienvenido a Neil!')
 }
 
+function despedida (){
+    alert( nombre + ', ¡Que tenga un excelente dia!')
+}
 let nombre =prompt('Ingrese su Nombre')
 saludo ()
 
@@ -58,13 +61,9 @@ do {
 }while (seguirComprando);
   
 
+alert('El precio total es de ' + precioFinal)
 
-// console.log(producto);
-// console.log(precio);
-console.log(precioFinal);
-// console.log(productosFinal);
+despedida ()
 
 
-
-// //   seguirComprando = confirm('Desea seguir comprando?');
 
